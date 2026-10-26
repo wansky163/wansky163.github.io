@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EU Declaration of Conformity</title>
+    <style type="text/css">
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: "Arial", "Helvetica", sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            line-height: 1.6;
+            color: #222;
+        }
+        h1 {
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+        h2 {
+            font-size: 18px;
+            margin: 24px 0 8px;
+            font-weight: bold;
+        }
+        p {
+            margin: 6px 0;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        ul {
+            margin: 8px 0 8px 24px;
+        }
+        .signature-area {
+            margin-top: 40px;
+        }
+        .footer-note {
+            margin-top: 50px;
+            font-size: 14px;
+            color: #555;
+        }
+        @media print {
+            body {
+                margin: 20px;
+            }
+            @page {
+                size: A4;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>EU Declaration of Conformity</h1>
+
+    <h2>Product Information</h2>
+    <p><span class="bold">Product Name:</span> 无线运动耳机</p>
+    <p><span class="bold">EAN Code:</span> 6902872706582</p>
+
+    <h2>Product Compliance</h2>
+    <p>Product complies with the following EU directives/regulations:</p>
+    <ul>
+        <li>Regulation (EU) 2023/988</li>
+        <li>Regulation (EC) No 1272/2008</li>
+        <li>Regulation (EC) No 1907/2006</li>
+    </ul>
+    <p>Additional compliance references:</p>
+    <ul>
+        <li>ECHA Candidate List of Substances of Very High Concern (SVHC)</li>
+        <li>REACH Annex XVII – Restricted Substances</li>
+    </ul>
+
+    <h2>Manufacturer Information</h2>
+    <p><span class="bold">Shenzhen Pusheng Kaijie Trading Co., Ltd.</span></p>
+    <p>Room A‑1802‑6, Sunshine Science Center, Nanxin Road, Nanshan District, Shenzhen</p>
+    <p>Email: mujtqxh@ecomrisks.com</p>
+
+    <h2>European Authorized Representative</h2>
+    <p><span class="bold">eVatmaster Consulting GmbH</span></p>
+    <p>Raiffeisen Street 2 B11, 63110 Rodgau, Hessen, Germany</p>
+    <p>Email: contact@evatmaster.com</p>
+
+    <h2>Declaration Statement</h2>
+    <p>The undersigned hereby declares that the above designated product complies with the essential requirements and other relevant provisions of the applicable EU directives and regulations.</p>
+
+    <p class="signature-area">For and on behalf of: <span class="bold">Shenzhen Pusheng Kaijie Trading Co., Ltd.</span></p>
+    <p>Signature & Date</p>
+
+    <p class="footer-note">This document is an electronic declaration of conformity. Scan the QR code on the product label to access this page.</p>
+</body>
+</html>
