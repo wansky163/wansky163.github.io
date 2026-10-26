@@ -41,7 +41,7 @@
             border-radius: 8px;
             padding: 18px;
             margin-bottom: 16px;
-            transition: 0.2s;
+            transition: background-color 0.2s ease;
         }
         .doc-item:hover {
             background-color: #f7f7f7;
@@ -62,7 +62,7 @@
         #emptyTip {
             text-align: center;
             color: #777;
-            padding: 20px;
+            padding: 40px 20px;
             display: none;
         }
         footer {
@@ -77,10 +77,16 @@
     <h1>EU Declaration of Conformity</h1>
 
     <div class="search-box">
-        <input type="text" id="searchInput" placeholder="Search product number...">
+        <input type="text" id="searchInput" placeholder="Search product number / EAN code...">
     </div>
 
     <div id="listContainer">
+        <!-- 新增无线运动耳机条目 -->
+        <div class="doc-item">
+            <a href="product-manuals/6902872706582.html">EAN 6902872706582 - Wireless Sports Headphone</a>
+            <div class="desc">EU Declaration of Conformity · 无线运动耳机</div>
+        </div>
+
         <div class="doc-item">
             <a href="product-manuals/1101013240.html">Product No. 1101013240</a>
             <div class="desc">EU Declaration of Conformity</div>
@@ -173,6 +179,7 @@
             <a href="product-manuals/1411006079.html">Product No. 1411006079</a>
             <div class="desc">EU Declaration of Conformity</div>
         </div>
+
         <div id="emptyTip">No matching product found.</div>
     </div>
 
